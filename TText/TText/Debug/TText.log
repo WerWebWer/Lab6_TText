@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\Werwe\Desktop\TText\include\main.cpp(36,7): warning C4101: Attr: неиспользованная локальная переменная
+  TLink.cpp
+  TText.cpp
+C:\Users\Werwe\Desktop\TText\include\main.cpp(61,6): warning C4101: p: неиспользованная локальная переменная
+  Создание кода...
+C:\Users\Werwe\Desktop\TText\include\TText.cpp(182,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Werwe\Desktop\TText\include\main.cpp(16): warning C4715: GetKEY: значение возвращается не при всех путях выполнения
+  TText.vcxproj -> C:\Users\Werwe\Desktop\TText\Debug\TText.exe

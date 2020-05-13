@@ -1,0 +1,16 @@
+﻿  test_text.cpp
+  test_main.cpp
+  test_link.cpp
+C:\Users\Werwe\Desktop\TText\test\test_text.cpp(5,2): warning C4091:: пропускается слева от "TText", когда ни одна переменная не объявлена
+  Создание кода...
+C:\Users\Werwe\Desktop\TText\test\test_link.cpp(5,3): warning C4091:: пропускается слева от "TLink", когда ни одна переменная не объявлена
+test_text.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: static void * __cdecl TLink::operator new(unsigned int)" (??2TLink@@SAPAXI@Z) в функции "public: __thiscall TText::TText(class TLink *)" (??0TText@@QAE@PAVTLink@@@Z)
+test_link.obj : error LNK2001: неразрешенный внешний символ ""public: static void * __cdecl TLink::operator new(unsigned int)" (??2TLink@@SAPAXI@Z)"
+test_text.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: static void __cdecl TLink::operator delete(void *)" (??3TLink@@SAXPAX@Z) в функции __unwindfunclet$??0TText@@QAE@PAVTLink@@@Z$2
+test_link.obj : error LNK2001: неразрешенный внешний символ ""public: static void __cdecl TLink::operator delete(void *)" (??3TLink@@SAXPAX@Z)"
+test_text.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall TText::goNextLink(void)" (?goNextLink@TText@@QAEXXZ) в функции "private: virtual void __thiscall TText_can_go_next_Test::TestBody(void)" (?TestBody@TText_can_go_next_Test@@EAEXXZ)
+test_text.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall TText::goPrevLink(void)" (?goPrevLink@TText@@QAEXXZ) в функции "private: virtual void __thiscall TText_can_go_back_Test::TestBody(void)" (?TestBody@TText_can_go_back_Test@@EAEXXZ)
+test_text.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall TText::goDownLink(void)" (?goDownLink@TText@@QAEXXZ) в функции "private: virtual void __thiscall TText_can_go_down_Test::TestBody(void)" (?TestBody@TText_can_go_down_Test@@EAEXXZ)
+test_text.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall TText::addNextLine(char *)" (?addNextLine@TText@@QAEXPAD@Z) в функции "private: virtual void __thiscall TText_can_add_next_line_Test::TestBody(void)" (?TestBody@TText_can_add_next_line_Test@@EAEXXZ)
+test_text.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall TText::addNextSection(char *)" (?addNextSection@TText@@QAEXPAD@Z) в функции "private: virtual void __thiscall TText_can_add_next_section_Test::TestBody(void)" (?TestBody@TText_can_add_next_section_Test@@EAEXXZ)
+C:\Users\Werwe\Desktop\TText\Debug\Test.exe : fatal error LNK1120: неразрешенных внешних элементов: 7
